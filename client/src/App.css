@@ -1,0 +1,82 @@
+/* Increase container size */
+/* @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&display=swap');
+body{
+  background-color: lightblue;
+  color: rgb(3, 16, 78);
+   font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  /* font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+  /* font-family: "Edu TAS Beginner", cursive; */
+  /* font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal; */
+  
+}
+
+#add-product-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Increase textbox size */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ddf502; /* Add the border property here */
+}
+
+
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Style input elements */
+input[type="text"],
+select,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: sans-serif; /* Change to your preferred font */
+}
+
+/* Style submit button */
+input[type="submit"] {
+  background-color: #0a5e81;
+  color: rgb(7, 94, 215);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Add hover effect to submit button */
+.button:hover {
+  background-color: #120bd4;
+}
